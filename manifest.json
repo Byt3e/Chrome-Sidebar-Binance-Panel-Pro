@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Binance Panel Pro",
+  "version": "4.3",
+  "permissions": ["sidePanel", "storage"],
+  "host_permissions": [
+    "https://api.binance.com/*",
+    "https://fapi.binance.com/*"
+  ],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "side_panel": {
+    "default_path": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png"
+    }
+  }
+}

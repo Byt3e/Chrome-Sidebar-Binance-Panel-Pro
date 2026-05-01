@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        body { 
+            background: #000; 
+            color: #0f0; 
+            font-family: 'Consolas', monospace; 
+            padding: 10px; 
+            margin: 0; 
+            width: auto; 
+            box-sizing: border-box;
+            user-select: none;
+        }
+        .header { color: #f3ba2f; text-align: center; margin-bottom: 15px; font-weight: bold; font-size: 18px; }
+        .controls { display: flex; gap: 8px; margin-bottom: 20px; }
+        input { 
+            background: #111; border: 1px solid #333; color: #fff; padding: 8px; 
+            flex: 1; text-transform: uppercase; font-size: 14px; 
+        }
+        button { background: #f3ba2f; border: none; padding: 8px 15px; cursor: pointer; font-weight: bold; font-size: 14px; }
+        .row { 
+            display: flex; 
+            justify-content: space-between; 
+            align-items: center; 
+            padding: 12px 0; 
+            border-bottom: 1px solid #222; 
+            cursor: grab;
+        }
+        .row:active { cursor: grabbing; }
+        .row.dragging { opacity: 0.4; border: 1px dashed #f3ba2f; }
+        .coin-info { display: flex; flex-direction: column; pointer-events: none; }
+        .sym { color: #888; font-size: 13px; }
+        .val { font-weight: bold; font-size: 18px; }
+        .del-btn { 
+            color: #ff4444; cursor: pointer; font-size: 11px; 
+            margin-left: 10px; border: 1px solid #444; padding: 4px 6px;
+            pointer-events: auto;
+        }
+        .up { color: #00ff00; }
+        .down { color: #ff4444; }
+        #status { font-size: 11px; color: #444; text-align: center; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <div class="header">BINANCE PRO PANEL</div>
+    <div class="controls">
+        <input type="text" id="coinInput" placeholder="ÖRN: BTCUSDT.P">
+        <button id="addBtn">EKLE</button>
+    </div>
+    <div id="coinList"></div>
+    <div id="status">Yükleniyor...</div>
+    <script src="script.js"></script>
+</body>
+</html>

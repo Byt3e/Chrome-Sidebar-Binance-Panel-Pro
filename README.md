@@ -1,9 +1,13 @@
 🚀 Binance Panel Pro
+---------------------
 
 Binance Panel Pro is a lightweight and powerful Google Chrome extension designed for traders who want to track real-time cryptocurrency prices directly from their browser's side panel. It provides a seamless experience by fetching live data for both Spot and Futures markets.  
 
 
+
+
 ✨ Features
+---------------
 
 Real-time Tracking: Fetches live price data from Binance APIs every 250ms.
 Dual Market Support: Easily track both Spot assets and Perpetual Futures (by adding .P to the symbol).
@@ -13,9 +17,15 @@ Visual Indicators: Instant price change feedback with green (up) and red (down) 
 Data Persistence: Your custom list is automatically saved to your browser's local storage.  
 
 
+
+
 🛠 Installation
+---------------
 
 Download or clone this repository.
+
 Open Chrome and navigate to chrome://extensions/.
+
 Enable Developer mode in the top right corner.
+
 Click Load unpacked and select the project folder.

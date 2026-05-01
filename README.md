@@ -10,10 +10,15 @@ Binance Panel Pro is a lightweight and powerful Google Chrome extension designed
 ---------------
 
 Real-time Tracking: Fetches live price data from Binance APIs every 250ms.
+
 Dual Market Support: Easily track both Spot assets and Perpetual Futures (by adding .P to the symbol).
+
 Side Panel Integration: Integrated with the Chrome Side Panel API for persistent, non-intrusive monitoring while you browse other sites.  
+
 Customizable List: Add, delete, or reorder your favorite trading pairs with a simple drag-and-drop interface.  
+
 Visual Indicators: Instant price change feedback with green (up) and red (down) color animations.  
+
 Data Persistence: Your custom list is automatically saved to your browser's local storage.  
 
 
